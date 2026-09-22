@@ -14,7 +14,7 @@ export default function Home() {
         />
         <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
           <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
+            수정된 문구입니다.{" "}
             <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
               page.tsx
             </code>{" "}
@@ -66,4 +66,15 @@ export default function Home() {
       </main>
     </div>
   );
+}
+import { Counter } from "@/components/Counter";
+
+export default function Home() {
+    return (
+        <main>
+            <h1>웹서버보안프로그래밍</h1>
+            <Counter />
+            <Link href="/about">/about
+        </main>
+    );
 }
